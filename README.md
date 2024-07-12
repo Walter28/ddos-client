@@ -1,4 +1,4 @@
-#DDOS CLIENT (Distribuated Denial Of Service)
+# DDOS CLIENT (Distribuated Denial Of Service)
 
 ## Wht's DDOS ?
 DDSO stands for <em>Distribuated Denial Of Service</em> and it is an attack where we block the ressources of a server by flooding it with requests. This kinf of attack is never performed alone but with help of so-collaed botnets.
